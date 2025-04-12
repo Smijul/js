@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset</title>
+</head>
+
+<>
+    <!-- field set is to goupt the item
+     legend is to give the   heading the  item-->
+
+    <!-- checkbox 
+      default checked and not selected disable -->
+
+    <!--  -->
+
+    <!-- select option
+       defalut selected or disbled -->
+
+    <!-- In form we are using methode post,get 
+     both are used to sending the data  get will show in the url post will hide the values in the url -->
+    <form action="">
+        <fieldset>
+            <legend align="center">Login details</legend>
+            <label for="name">Enter first name</label>
+            <input type="text" name="fname" placeholder="Enter your firstname" required>
+            <br>
+            <label for="lname">Enter Last name</label>
+            <input type="text" name="lname" placeholder="Enter your last name" required>
+            <br>
+            <label for="email">Enter your email id</label>
+            <input type="email" name="email" placeholder="Enter emailid">
+            <br>
+            <label for="password">Enter the password</label>
+            <input type="password" name="password" placeholder="Enter password">
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend align="center">Ages</legend>
+            <label for="age">Enter your age</label>
+            <input type="number" name="age" placeholder="Enter your age" min="0" max="100">
+            <br>
+            <label for="phno">Enter your mobile number</label>
+            <input type="tel" name="phno" placeholder="Enter your number" pattern="[6-9]{1}[0-9]{9}">
+            <br>
+            <label for="dob">Enter the date of Birth</label>
+            <input type="date" name="dob" id="">
+            <br>
+        </fieldset>
+S
+        <fieldset>
+            <legend align="center">Language</legend>
+            <br>
+            <label for="language">English</label>
+            <input type="checkbox" name="language" value="English" checked>
+            <label for="language">kannada</label>
+            <input type="checkbox" name="language" value="kannada" disabled>
+            <label for="language">malayalam</label>
+            <input type="checkbox" name="language" value="malayalam">
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend align="center">Places</legend>
+            <select name="Place" id="p1">
+                <option value="Kerala" selected>Kerala</option>
+                <option value="Bangaluru">Bangaluru</option>
+                <option value="Goa">Goa</option>
+                <option value="Chennai" disabled>Chennai</option>
+            </select>
+        </fieldset>
+
+    </form>
+
+    </body>
+
+</html>

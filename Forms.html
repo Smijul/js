@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms sample</title>
+
+</head>
+
+<body style="background-color: antiquewhite;">
+    <h1 align="center">Sample for forms</h1>
+    <form action="./" method="get" align="center" style="border:1cm;">
+        <fieldset>
+            <legend align="center">Login Details</legend>
+            <label for="name">Enter first name</label>
+            <input type="text" name="fname" placeholder="Enter your firstname" required>
+            <br>
+            <label for="lname">Enter Last name</label>
+            <input type="text" name="lname" placeholder="Enter your last name" required>
+            <br>
+            <label for="email">Enter your email id</label>
+            <input type="email" name="email" placeholder="Enter emailid">
+            <br>
+            <label for="password">Enter the password</label>
+            <input type="password" name="password" placeholder="Enter password">
+            <br>
+        </fieldset>
+
+        <label for="age">Enter your age</label>
+        <input type="number" name="age" placeholder="Enter your age" min="0" max="100">
+        <br>
+        <label for="phno">Enter your mobile number</label>
+        <input type="tel" name="phno" placeholder="Enter your number" pattern="[6-9]{1}[0-9]{9}">
+        <br>
+        <label for="dob">Enter the date of Birth</label>
+        <input type="date" name="dob" id="">
+        <br>
+
+        <br>
+        <label for="language">English</label>
+        <input type="checkbox" name="language" value="English">
+        <label for="language">kannada</label>
+        <input type="checkbox" name="language" value="kannada">
+        <label for="language">malayalam</label>
+        <input type="checkbox" name="language" value="malayalam">
+        <br>
+        <label for="Gender">Male</label>
+        <input type="radio">
+        <label for="Gender">Female</label>
+        <input type="radio">
+        <label for="Gender">Other</label>
+        <input type="radio">
+
+        <br>
+        <label for="Gender">Male</label>
+        <input type="radio" name="Gender" id="1" value="Male">
+        <label for="Gender">Female</label>
+        <input type="radio" name="Gender" id="1" value="feMale">
+        <label for="Gender">Other</label>
+        <input type="radio" name="Gender" id="1" value="Other">
+
+        <h2>Drop down</h2>
+        <select name="place" id="">
+            <option value="Goa">Goa</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Bangaluru">Bangaluru</option>
+        </select>
+        <br>
+
+        <input type="submit" style="color: rgb(67, 9, 212);">
+    </form>
+</body>
+
+</html>
